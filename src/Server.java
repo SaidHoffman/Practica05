@@ -277,7 +277,7 @@ public class Server {
                   }
               }
          } catch(IOException e) {
-              System.out.println("Error al registrar en el Registry: " + e.getMessage());
+              System.out.println("Error al registrar en el Registry : " + e.getMessage());
          }
          
          Server server = new Server(serverId, clientPort, serverPort, others);

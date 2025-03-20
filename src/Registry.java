@@ -55,7 +55,7 @@ public class Registry {
                             }
                             if(!exists) {
                                 servers.add(info);
-                                System.out.println("Registrado servidor: " + info.id);
+                                System.out.println("Registrado servidor : " + info.id);
                             }
                         }
                         // Envía la lista de servidores en formato:

@@ -4,7 +4,7 @@ public class ServerInfo {
     public int id;
     public String host;
     public int serverPort; // Puerto para comunicación entre servidores (Bully y sincronización)
-    public int clientPort; // Puerto para atender clientes
+    public int clientPort; // Puerto para atender cliente
 
     public ServerInfo(int id, String host, int serverPort, int clientPort) {
          this.id = id;

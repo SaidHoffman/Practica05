@@ -21,7 +21,7 @@ public class Part {
  
      @Override
      public String toString() {
-          return "Part [id=" + id + ", name=" + name + ", quantity=" + quantity + ", price=" + price + "]";
+          return "Part [id=" + id + ", name =" + name + ", quantity=" + quantity + ", price=" + price + "]";
      }
  }
  
